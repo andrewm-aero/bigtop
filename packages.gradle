@@ -343,6 +343,7 @@ def genTasks = { target ->
 --preserve-envvar PATH \
 --preserve-envvar MAVEN3_HOME \
 --preserve-envvar MAVEN_OPTS \
+--preserve-envvar ANT_OPTS \
 --preserve-envvar JAVA_HOME \
 --preserve-envvar BIGTOP_JDK \
 --preserve-envvar HTTP_PROXY \
