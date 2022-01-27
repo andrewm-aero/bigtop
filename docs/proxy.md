@@ -68,7 +68,7 @@ systemProp.https.nonProxyHosts=...|...
 # In the same shell as build
 # Only necessary if you if you need to tunnel an https url through a non-https http proxy
 # Property intentionally left blank
-export MVN_OPTS="-Dhttp.auth.tunneling.disabledSchemes= ..."
+export MAVEN_OPTS="-Dhttp.auth.tunneling.disabledSchemes= ..."
 ```
 
 ## Ant
